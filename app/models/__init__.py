@@ -1,1 +1,2 @@
-from .bert_model import classify_intent
+from .bert_model import BertModel
+from .bert_trainer import BertTrainer

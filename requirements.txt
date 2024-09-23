@@ -5,10 +5,9 @@ flask
 praw
 textblob
 nltk
-numpy
+numpy<2
 thinc
 transformers
-torch==2.0.1+cu117  # Ensure CUDA 11.7 compatible version of PyTorch is installed
 datasets
 accelerate
 elasticsearch==8.9.0
@@ -16,3 +15,6 @@ python-dotenv
 hf_transfer
 scikit-learn
 tensorboard
+# pip install torch==1.13.1+cu117 -f https://download.pytorch.org/whl/torch_stable.html
+schedule
+pyyaml

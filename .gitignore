@@ -160,3 +160,7 @@ cython_debug/
 logs/
 
 trained_models/
+
+preprocessed_dataset/
+
+results/
